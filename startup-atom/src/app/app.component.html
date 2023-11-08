@@ -1,9 +1,27 @@
+<div class="main-container">
+  <section class="header-section">
+    <div class="header-section__nav-bar">
+      <ul>
+        <li><span>First</span></li>
+        <li><span>Second</span></li>
+        <li><span>Third</span></li>
+      </ul>
+    </div>
+    <div class="header-section__content">
+      <image-slider [slides]="slides"></image-slider>
+    </div>
+  </section>
 
-<section class="reactor-model">
-  <!-- <div style="width: 500px; height: 200px; margin: 0 auto">
-    <image-slider [slides]="slides"></image-slider>
-  </div> -->
-  <model-viewer width="500px" alt="Neil Armstrong" src="assets/PowerPlant.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
-</section>
+  <section class="middle-section">
+
+  </section>
+
+  <section class="footer-section">
+    <div class="reactor-model">
+      <model-viewer width="500px" src="assets/PowerPlant.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+    </div>
+  </section>
+</div>
+
 
 
