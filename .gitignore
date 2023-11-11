@@ -8,6 +8,7 @@
 
 # Node
 startup-atom/.angular/cache
+startup-atom/.vscode/
 node_modules
 npm-debug.log
 yarn-error.log

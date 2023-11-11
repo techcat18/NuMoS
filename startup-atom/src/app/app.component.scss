@@ -1,49 +1,122 @@
-.main-container{
+.mobile-design {
+  background-color: #ffffff;
   display: flex;
-  flex-direction: column;
-  background-image: url('https://media-cldnry.s-nbcnews.com/image/upload/newscms/2018_22/2451826/180601-atomi-mn-1540.jpg');
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
 
-.header-section{
+.text{
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.white{
+  color: #fff;
+}
+
+.black{
+  color: #000;
+}
+
+.bold{
+  font-weight: 600;
+}
+
+.medium{
+  font-size: 2.5rem;
+}
+
+.large{
+  font-size: 3rem;
+}
+
+.line{
+  color: #fff;
+  font-weight: 400;
+}
+
+.flag{
+  width: 3rem;
+  height: 2rem;
+}
+
+.first-section{
+  background-image: url('/assets/img/person_looking_at_power_plant_with_steam_coming_out_of_reactors.png');
   height: 100vh;
+  background-size: cover;
 
-  &__nav-bar{
-    color: #fff;
-    font-weight: bold;
-    font-size: 1.5rem;
-    padding: 1.5rem;
-
-    & > ul{
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      list-style: none;
-      text-align: center;
-
-      & > li > span:hover{
-        cursor: pointer;
-      }
-    }
+  &__header{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
   }
 
   &__content{
-    height: calc(100vh - 10rem);
+    margin: 4rem 1rem;
   }
 }
 
-.middle-section{
-  height: 100vh;
-  object-fit: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
+.second-section{
+  padding: 1rem;
+  text-align: center;
+
+  &__header{
+    text-align: center;
+  }
+
+  &__description{
+    text-align: center;
+  }
+
+  &__image-container{
+    padding: 1rem;
+  }
+
+  &__image-container img{
+    width: 50vw;
+    height: 50vh;
+    object-fit: cover;
+  }
 }
 
-.footer-section{
-  height: 100vh;
-  background-color: #000;
+.third-section{
+  padding: 1rem;
+  text-align: center;
+
+  &__header{
+    text-align: center;
+  }
+
+  &__description{
+    text-align: center;
+  }
+
+  &__image{
+    width: 50vw;
+    height: 50vh;
+    object-fit: cover;
+  }
 }
 
-.reactor-model{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.team-section{
+  padding: 1rem;
+  text-align: center;
+
+  &__header{
+  }
+
+  &__image-grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  &__person-box img{
+    width: 20rem;
+    height: 30rem;
+    object-fit: cover;
+  }
 }
