@@ -1,0 +1,58 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter-Regular", Helvetica;
+}
+
+model-viewer {
+  width: 500px;
+  height: 500px;
+}
+
+// FIGMA
+
+:root {
+  --x-1: rgba(255, 255, 255, 1);
+  --g-1: rgba(227, 227, 227, 1);
+  --inter-64-r-font-family: "Inter-Regular", Helvetica;
+  --inter-64-r-font-weight: 400;
+  --inter-64-r-font-size: 64px;
+  --inter-64-r-letter-spacing: 0px;
+  --inter-64-r-line-height: normal;
+  --inter-64-r-font-style: normal;
+  --inter-40-r-font-family: "Inter-Regular", Helvetica;
+  --inter-40-r-font-weight: 400;
+  --inter-40-r-font-size: 40px;
+  --inter-40-r-letter-spacing: 0px;
+  --inter-40-r-line-height: normal;
+  --inter-40-r-font-style: normal;
+  --koulen-195-font-family: "Koulen-Regular", Helvetica;
+  --koulen-195-font-weight: 400;
+  --koulen-195-font-size: 195px;
+  --koulen-195-letter-spacing: 0px;
+  --koulen-195-line-height: normal;
+  --koulen-195-font-style: normal;
+  --lateef-96-font-family: "Lateef-Regular", Helvetica;
+  --lateef-96-font-weight: 400;
+  --lateef-96-font-size: 96px;
+  --lateef-96-letter-spacing: 0px;
+  --lateef-96-line-height: normal;
+  --lateef-96-font-style: normal;
+  --inter-32-r-font-family: "Inter-Regular", Helvetica;
+  --inter-32-r-font-weight: 400;
+  --inter-32-r-font-size: 32px;
+  --inter-32-r-letter-spacing: 0px;
+  --inter-32-r-line-height: normal;
+  --inter-32-r-font-style: normal;
+  --inter-32-font-family: "Inter-Regular", Helvetica;
+  --inter-32-font-weight: 400;
+  --inter-32-font-size: 32px;
+  --inter-32-letter-spacing: 0px;
+  --inter-32-line-height: normal;
+  --inter-32-font-style: normal;
+  --1: 0px 4px 168.1999969482422px 0px rgba(156, 255, 96, 0.62);
+  --2: 0px 4px 115.5px 0px rgba(48, 243, 255, 0.72);
+  --3: 0px 4px 150.8000030517578px 0px rgba(255, 111, 223, 0.64);
+  --or: 0px 0px 40px 0px rgba(167, 74, 41, 0.7);
+}
