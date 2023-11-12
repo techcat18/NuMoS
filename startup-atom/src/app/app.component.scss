@@ -75,8 +75,7 @@
   }
 
   &__image-container img{
-    width: 50vw;
-    height: 50vh;
+    width: 80vw;
     object-fit: cover;
   }
 }
@@ -103,9 +102,6 @@
 .team-section{
   padding: 1rem;
   text-align: center;
-
-  &__header{
-  }
 
   &__image-grid{
     display: flex;
